@@ -85,5 +85,45 @@ justify-content: center;
 
 .img-container h3{
     text-align: center;
-    
+}
+
+.location-box{
+    display: block;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 30px auto;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+   
+
+
+
+}
+
+.location-box h2{
+    margin: 0px auto 15px auto;
+    padding-top: 5%;
+
+   
+}
+.address-box{
+   display: flex;
+   height: auto;
+   max-width: 1050px;
+   margin: auto;
+}
+.address{
+background-color: black;
+padding: 15px 30px 30px 15px;
+margin: 20px;
+opacity: 0.8;
+width: 300px;
+
+}
+
+.contact{
+    height: 200px;
+    margin: auto;
 }
