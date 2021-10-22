@@ -7,6 +7,8 @@ body{
     opacity: 0.9;
     font-size: 22px;
     margin: 0;
+    text-align: center;
+
 
 }
 header{
@@ -51,14 +53,37 @@ nav li{
     height: 700px;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
     background-repeat: no-repeat;
-    margin: auto;
+    margin: 69px auto;
     align-items: center;
     display: flex;
+    background-position: center;
    
 }
 .mission-text{
     background-color: black;
-    margin: 0 auto;
     width: 100%;
 }
+.tea-text{
+    text-align: center;
+    margin: auto;
+    background-color: black;
+}
+.gallery-img{
+    height: 200px;
+    width: 300px;
+    padding: 0px 10px; 
+}
+.tea-gallery{
+display: inline-flex;
+max-width: 1000px;
+height: auto;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
 
+}
+
+.img-container h3{
+    text-align: center;
+    
+}
