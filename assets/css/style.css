@@ -125,5 +125,9 @@ width: 300px;
 
 .contact{
     height: 200px;
-    margin: auto;
+
+}
+footer h5{
+    float: left;
+    margin-left: 20px;
 }
